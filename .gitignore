@@ -1,0 +1,35 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+data/vibe_data/spin_model_checkpoint.pth.tar
+data/vibe_data/vibe_model_wo_3dpw.pth.tar
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.pkl
+*.tar
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db 
